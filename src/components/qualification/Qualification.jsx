@@ -138,13 +138,15 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Developer</h3>
+                <h3 className="qualification__title">
+                  Full Stack Developer Intern
+                </h3>
                 <span className="qualification__subtitle">
-                  PM Communications
+                  Royal Technsoft Pvt. Ltd.
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  Sept 2019 - Apr 2020
+                  Apr 2020 - Jul 2021
                 </div>
               </div>
               <div>
@@ -161,18 +163,18 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">JAVA Developer</h3>
+                <h3 className="qualification__title">Web Designer Intern</h3>
                 <span className="qualification__subtitle">
-                  Royal Technosoft
+                  PM Communications
                 </span>
                 <div className="qualification__calendar">
                   <i className="uil uil-calendar-alt"></i>
-                  Mar 2020 - Aug 2020
+                  Sept 2019 - Feb 2020
                 </div>
               </div>
             </div>
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">UI/Graphic Designer</h3>
                 <span className="qualification__subtitle">My Study Buddy</span>
@@ -185,7 +187,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
