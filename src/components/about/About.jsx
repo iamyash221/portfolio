@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import AboutImg from "../../assets/about.jpg";
-import CV from "../../assets/MyResumeFinal.pdf";
+// import CV from "../../assets/MyResumeFinal.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
             Moreover, I have done several projects in Machine Learning.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
+          {/* <a download="" href={CV} className="button button--flex">
             Download CV
             <svg
               className="button__icon"
@@ -49,7 +49,7 @@ const About = () => {
                 fill="var(--container-color)"
               ></path>
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>
