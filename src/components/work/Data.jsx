@@ -2,6 +2,9 @@ import Work1 from "../../assets/work1.jpg";
 import Work2 from "../../assets/work2.jpg";
 import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
+import Work5 from "../../assets/work5.jpg";
+import Work6 from "../../assets/work6.jpg";
+
 
 export const projectsData = [
   {
@@ -32,6 +35,20 @@ export const projectsData = [
     category: "other",
     to: "https://drive.google.com/file/d/19la47qVPQh1NWaFiK025DzR3If5fLC_y/view?usp=sharing",
   },
+  {
+    id: 5,
+    image: Work5,
+    title: "Expense tracker using context API",
+    category: "javascript",
+    to: "https://expense-tracker-tau-weld.vercel.app/",
+  },
+  {
+    id: 6,
+    image: Work6,
+    title: "ToDo List using JS",
+    category: "javascript",
+    to: "https://todolist-alpha-orcin.vercel.app/",
+  },
 ];
 
 export const projectsNav = [
@@ -47,4 +64,7 @@ export const projectsNav = [
   {
     name: "other",
   },
+  {
+    name: "javascript",
+  }
 ];
